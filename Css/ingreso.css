@@ -1,0 +1,178 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.menu {
+  float: left;
+  width: 100%;
+}
+
+
+.menu4{
+    float: center;
+    width: 20%;
+    overflow: hidden;
+    border: 1px;
+}
+
+.menu4 a{
+    background-color: rgb(165, 165, 165);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+.menu4 a:hover{
+    background-color: rgb(201, 141, 141);
+    color: black;
+}
+
+
+.menu2{
+    float: center;
+    width: 20%;
+    overflow: hidden;
+    border: 1px;
+}
+
+.menu2 a{
+    background-color: rgb(255, 192, 0);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+.menu2 a:hover{
+    background-color: rgb(201, 141, 141);
+    color: black;
+}
+
+.menu1{
+    float: center;
+    width: 20%;
+    overflow: hidden;
+    border: 1px;
+}
+
+.menu1 a{
+    background-color: rgb(91, 155, 213);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    display: block;
+}
+
+.menu1 a:hover{
+    background-color: rgb(201, 141, 141);
+    color: black;
+}
+
+.menuX{
+    float: center;
+    width: 20%;
+    overflow: hidden;
+    border: 1px;
+}
+
+.menuX a{
+    background-color: rgb(244, 244, 244);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    display: block;
+}
+
+.menuX a:hover{
+    background-color: rgb(201, 141, 141);
+    color: black;
+}
+
+
+.caja4{
+    
+    position:absolute;
+    top:50;
+    left:400;
+}
+
+.caja5{
+	
+	position:absolute;
+	top:100;
+	left:300;
+}
+
+
+.caja6{
+
+    position:absolute;
+    top:100;
+    left:300;
+}
+
+
+.caja6 a:hover{
+    background-color: rgb(201, 141, 141);
+    color: black;
+}
+
+.caja6 a{
+    background-color: rgb(91, 155, 213);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    display: block;
+}
+
+
+.caja7{
+
+    position:absolute;
+    top:200;
+    left:300;
+}
+
+.caja7 a:hover{
+    background-color: rgb(201, 141, 141);
+    color: black;
+}
+
+.caja7 a{
+    background-color: rgb(237, 125, 49);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    display: block;
+}
+
+
+.caja8{
+
+    position:absolute;
+    top:300;
+    left:300;
+}
+
+.caja8 a:hover{
+    background-color: rgb(201, 141, 141);
+    color: black;
+}
+
+.caja8 a{
+    background-color: rgb(165, 165, 165);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    display: block;
+}

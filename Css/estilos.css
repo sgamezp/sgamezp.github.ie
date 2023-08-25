@@ -1,0 +1,222 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+</style>
+
+:root{
+  --padding-container: 100px 0;
+  --color-tittle: #001A49;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+}
+
+.hero{
+width: 100%;
+height: 100vh;
+min-height: 600px;
+max-height: 800px;
+position: relative;
+display: grid;
+grid-template-rows: 100px 1fr;
+color: rgb(249, 253, 253);
+}
+
+.hero::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(180deg,#00000069 0%,#f6f5fa 100%), url(../Imagenes/artificial-intelligence-3382507_1280-removebg-preview\ \(1\).png);
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
+  z-index: -1;
+}
+/*Nav*/
+
+.nav{
+  --padding-container:0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav__title{
+  font-weight: 300;
+}
+
+.nav__link{
+  margin-left: auto;
+  padding: 0;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  gap: 2em;
+
+}
+
+.nav__items{
+  list-style: none;
+}
+
+.nav__links{
+  color: azure;
+  text-decoration: none;
+}
+
+
+.nav__menu{
+  margin-left: auto;
+  cursor:pointer;
+  display:none;
+}
+
+.nav__img{
+  display:block;
+  width: 30px;
+}
+.nav__close {
+  display: var(--show, none);
+}
+
+/*hero container*/
+
+.hero__container{
+  max-width: 800px;
+  --padding-container:0;
+  display: grid;
+  grid-auto-rows: max-content;
+  align-content: center;
+  gap: 1em;
+  padding-bottom: 100px;
+  text-align: center;
+
+}
+
+.hero__tittle{
+  font-size: 3rem;
+
+}
+.hero__paragraph{
+  margin-bottom: 20px;
+}
+.cta{
+  display: inline-block;
+  background-color: #3795ec;
+  justify-self: center;
+  color: white;
+  text-decoration: none;
+  padding: 13px 20px;
+  border-radius: 32px ;
+}
+*{
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.menu {
+float: left;
+width: 100%;
+}
+
+
+.menu3{
+  float: center;
+  width: 20%;
+  overflow: hidden;
+  border: 1px;
+}
+
+.menu3 a{
+  background-color: #FFC000;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+  display: block;
+}
+
+.menu3 a:hover{
+  background-color: rgb(201, 141, 141);
+  color: black;
+}
+
+.menu4{
+  float: center;
+  width: 20%;
+  overflow: hidden;
+  border: 1px;
+}
+
+.menu4 a{
+  background-color: #5B9BD5;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+}
+
+.menu4 a:hover{
+  background-color: rgb(201, 141, 141);
+  color: black;
+}
+
+
+.menu2{
+  float: center;
+  width: 20%;
+  overflow: hidden;
+  border: 1px;
+}
+
+.menu2 a{
+  background-color: rgb(184, 182, 176);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+}
+
+.menu2 a:hover{
+  background-color: rgb(201, 141, 141);
+  color: black;
+}
+
+.menu1{
+  float: center;
+  width: 20%;
+  overflow: hidden;
+  border: 1px;
+}
+
+.menu1 a{
+  background-color: rgb(238, 112, 9);
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+  display: block;
+}
+
+.menu1 a:hover{
+  background-color: rgb(201, 141, 141);
+  color: black;
+}
+
+.caja4{
+  
+  position:absolute;
+  top:50;
+  left:400;
+}
